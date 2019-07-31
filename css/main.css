@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor{
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+}
+h1 {
+  text-align: center;
+}
+form {
+  width:100%;
+  max-width: 300px;
+  margin: 40px auto;
+}
+.btn {
+  display: block;
+  margin: 10px auto;
+  color: #0099CC;
+  background: transparent;
+  border: 2px solid #0099CC;
+  border-radius: 6px;
+  padding: 10px;
+}
+.btn:hover {
+  background-color: #008CBA;
+  color: #000;;
+  cursor: pointer;
+}
+.text {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: -15px;
+  text-align: center;
+}
+.vali {
+  text-align: center;
+  border-radius: 6px;
+  width: 70%;
+  box-shadow: 0 0 4px rgb(0, 0, 0);
+} 
+p {
+  margin: 20px;
+}

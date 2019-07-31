@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Calcula tu peso en la luna</title>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Calcula tu peso en la luna</h1>
+    <form>
+      <input type="number" name="peso" placeholder="Escribe tu peso en Kg" id="peso" class="vali">
+      <select name="" id="planetas">
+        <option selected disabled>Planetas</option>
+        <option value="planeta1">Luna</option>
+        <option value="planeta2">Marte</option>
+        <option value="planeta3">Venus</option>
+      </select>
+      <input type="button" class="btn" value="Calcular" onclick="Calcular();">
+    </form>
+    <div class="text">
+      <span id="span">Tu peso es:</span>
+      <p>BY: Duvan Molina</p>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

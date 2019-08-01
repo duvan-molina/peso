@@ -9,7 +9,7 @@ function Calcular() {
 
 
   function validar() {
-    if (peso == ''){
+    if (peso == '' || peso == 0){
       alert('por favor ingresa correctamente el peso');
       return false;
     } 
